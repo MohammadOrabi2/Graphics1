@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="road.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3DTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bathroom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bedroom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="boarders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controlling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="math3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_3DS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rkap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rkapr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="road.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3DTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bathroom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bedroom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="boarders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="controll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="controlling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_3DS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\ad1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ad2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ad3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ad4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ad5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ad6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ad7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\B-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bl.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Box_Back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Box_Front.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Box_Left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Box_Right.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Box_Top.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\C-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cloth.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cloth1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Controll.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\curtain.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\door4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\E-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\F-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\frontControll.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\H-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\I1-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\I-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\J-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jj.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jj1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\K-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\kk.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\kk1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\l.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\leftControll.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ll.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ll1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ll2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\lll1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\m.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\M1-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\M-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\M2-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\M3-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\metal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\pp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rightControll.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roadBetween1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roadBetween2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roadLeft3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roadRight1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roadRight2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roadRight3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roadRight4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roomKitchen1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roomKitchen2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roomKitchen3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roomKitchen4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roomKitchen5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roomKitchen6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roomKitchen7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roomKitchen8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roomKitchen9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sh.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\snowHous1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\snowHous2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\snowHous3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\snowHous4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\snowRoad.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\snowTree.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sofaBack.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\street.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\structure.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\structure1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\structure2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\structure3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\structure4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\structure5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\structure6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\structure7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\trainbottom1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\trainfront1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\trainleft1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\trainleft2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\trainleft3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\trainTop1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\trainTop2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\trees1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\trees2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\wall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\wood.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ww.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ww1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ww2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="audios\beach_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\city_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\desert_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\door_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\game_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\trainGame_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\trainWinter_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\winter_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\train_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\trainBeach_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\trainCity_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audios\trainDesert_sound_effect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="audios\Vase.3DS">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
